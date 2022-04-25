@@ -15,16 +15,20 @@ body{
 }
 
 main{
+  opacity:1;
+  width: 100%;
   animation-name: test;
   animation-duration: 3s;
+  margin: auto;
 }
 
 @keyframes test {
-  0% {
+  0%,99% {
     opacity:0; 
     font-size: 0%; 
     width: 0px; 
     height: 0px;
+    display: none;
   }
   100% {
     opacity:1;
@@ -55,28 +59,28 @@ main{
 }
 
 .loader-content{
+  margin: auto;
   opacity:0; 
   font-size: 0%; 
   width: 0%; 
   height: 0px;
-  animation:3s hide; 
+  animation:3s hide 1; 
 }
 
 @keyframes hide {
-  0% {
-    margin-left: auto;
-  margin-right: auto;
-    margin-top: 50%;
+  0%,99% {
+    margin: auto;
     opacity:1;
     width: 220px; 
     height: 220px;
   }
   100% {
+    margin: auto;
     opacity:0; 
-    font-size: 0%; 
-    display: none; 
+    font-size: 0%;  
     width: 0%; 
     height: 0%;
+    display: none;
   }
 }
 
