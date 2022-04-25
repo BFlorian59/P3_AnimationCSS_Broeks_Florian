@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+	header img{
+		width: 30%;
+		margin-top: 5%;
+		margin-bottom: 5%; 
+	}
+
+	.localisation{
+    	margin-left: auto;
+    	font-size: 160%;
+	}	
+
+	.localisation i {
+    	margin-top: 3.6%;
+    	margin-right: 2%;
+    	padding-bottom: 3%;	
+	}
+
+	.reserver{
+		padding-bottom: 8%;
+	}
+
+	.reserver h1{
+		font-size: 200%;
+	}
+
+	.reserver p{
+		font-size: 180%;
+	}
+
+	.reserver button{
+		font-size: 180%;
+	}
+
+	#fonctionnement h1{
+		font-size: 200%;
+	}
+
+	.option {
+    	border-radius: 50px;
+    	margin-bottom: 5%;
+    	padding: 0%;
+    	font-size: 180%;
+	}
+
+	.option b:first-child {
+    	border-radius: 60%;
+    	padding: 2.3% 3% 2.3% 3%;
+    	font-size: 80%;
+    	margin-left: -3%;
+	}
+
+	#restaurant h1 {
+    	margin-left: 3%;
+    	padding-top: 5%;
+    	font-size: 200%;
+	}
+
+	.liste .card {
+	    height: 100%;
+	    width: 80%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.liste .card-image {
+    	height: 17em;
+    	margin-bottom: 0%;
+	}
+
+	.liste .card-image img {
+		top: 50%;
+    	left: 50%;
+    	transform: translate(0%, -37%);
+	}
+
+	.liste .card-image2 {
+    	height: 17em;
+    	margin-bottom: 3%;
+	}
+
+	.liste .card-image2 img {
+		top: 50%;
+    	left: 50%;
+    	transform: translate(0%, -37%);
+	}
+
+	.liste .card-body {
+		font-size: 180%;
+		margin-bottom: 1%;
+		margin-left: 3%;
+	}
+
+	.card-body i {
+	    font-size: 160%;
+	    margin-right: 5%;
+	    margin-top: 1%;
+	}
+
+	footer {
+	    margin-top: auto;
+	    background-color: #3c3d40;
+	    color: white;
+	    padding-bottom: 5%;
+	}
+
+	footer p {
+    	font-size: 150%;
+    	margin-left: 4%;
+	}
+
+	.foot i {
+    	font-size: 150%;
+    	margin: 4% -2% 3% 4%;
+	}
+
+}

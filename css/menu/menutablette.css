@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+	header a {
+    	font-size: 200%;
+	}
+
+	header img {
+	    width: 30%;
+	}
+
+	.content {
+    	height: 30em;
+	}
+
+	.foli {
+		background-image: url("../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+	}
+
+	.charonne{
+		background-image: url("../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+	}
+
+	.menil {
+		background-image: url("../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+	}
+
+	.cite {
+		background-image: url("../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+	}
+
+	#menu{
+		font-size: 150%;
+	}
+
+	.button{
+		font-size: 180%;
+	}
+
+	footer {
+	    margin-top: auto;
+	    background-color: #3c3d40;
+	    color: white;
+	    padding-bottom: 5%;
+	}
+
+	footer p {
+    	font-size: 150%;
+    	margin-left: 4%;
+	}
+
+	.foot i {
+    	font-size: 150%;
+    	margin: 4% -2% 3% 4%;
+	}
+
+}
