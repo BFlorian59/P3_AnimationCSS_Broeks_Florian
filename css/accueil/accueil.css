@@ -40,8 +40,8 @@ main{
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #9356DC;
-  width: 220px;
-  height: 220px;
+      width: 120px;
+    height: 120px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
   margin: auto;
@@ -71,9 +71,10 @@ main{
   0%,99% {
     margin: auto;
     opacity:1;
-    width: 220px; 
-    height: 220px;
+    width: 120px;
+    height: 120px;
   }
+
   100% {
     margin: auto;
     opacity:0; 

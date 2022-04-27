@@ -25,37 +25,39 @@
   }
 }
 
-.liste .content i:hover{
-	animation-duration: 3s;
-	animation-name: slide;
+.liste .card a {
+  color: #333; 
+  text-decoration: none;
+  flex-direction: row;
+  display: flex;
+  width: 120%;
 }
 
-@keyframes slide {
-	from {
-		margin-left: 0%;
-		padding: 0%;
-		font-size: 0%;
-		width: 0%;
-	}
-	to{
-		margin-left: auto;
-		padding: 7%;
-		font-size: 100%;
-		width: 20%;
-	}
+.liste .card a:hover{
+  width: 100%;
+  animation-duration: 1s;
+  animation-name: body-card;
 }
 
-.liste .card-body:hover{
-	animation-duration: 3s;
-	animation-name: body-card;
+.content-body{
+  margin-left: auto;
+  background-color: #99E2D0;
+  width: 20%;
+  text-align: center;
+}
+
+.content-body i{
+  color: white;
+  margin: auto;
+  padding: auto;
 }
 
 @keyframes body-card{
 	from{
-		width: 100%;
+		width: 120%;
 	}
 	to{
-		width: 80%;
+		width: 100%;
 	}
 }
 
@@ -171,11 +173,6 @@ header a{
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 0px 12px 4px #d5d5d5;
-}
-
-.liste .card a { /*5*/
-  color: #333; 
-  text-decoration: none;
 }
 
 .liste .card p { /*5*/
