@@ -36,6 +36,11 @@
 		font-size: 180%;
 	}
 
+	.content-body i{
+ 		padding-top: 30%;
+  		font-size: 150%;
+	}
+
 	footer {
 	    margin-top: auto;
 	    background-color: #3c3d40;

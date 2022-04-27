@@ -40,8 +40,8 @@ main{
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #9356DC;
-      width: 120px;
-    height: 120px;
+      width: 250px;
+    height: 250px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
   margin: auto;
@@ -59,7 +59,7 @@ main{
 }
 
 .loader-content{
-  margin: auto;
+  text-align: center;
   opacity:0; 
   font-size: 0%; 
   width: 0%; 
@@ -70,13 +70,15 @@ main{
 @keyframes hide {
   0%,99% {
     margin: auto;
+    margin-top: 15%;
     opacity:1;
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 250px;
   }
 
   100% {
     margin: auto;
+    margin-top: 15%;
     opacity:0; 
     font-size: 0%;  
     width: 0%; 
@@ -323,3 +325,8 @@ footer img{
   font-size: 50%;
   margin: 3.5% -2% 3% 5%;
  }
+
+ footer a { /*5*/
+  color: white; 
+  text-decoration: none;
+}
