@@ -14,7 +14,7 @@ body{
 	margin: auto;
 }
 
-main{
+main, header, footer{
   opacity:1;
   width: 100%;
   animation-name: test;

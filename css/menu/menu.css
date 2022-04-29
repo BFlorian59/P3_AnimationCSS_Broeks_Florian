@@ -31,6 +31,18 @@
   flex-direction: row;
   display: flex;
   width: 120%;
+  animation-name: a;
+  animation-duration: 1s;
+}
+
+@keyframes a {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 120%;
+  }
 }
 
 .liste .card a:hover{
