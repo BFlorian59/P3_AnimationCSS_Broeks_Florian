@@ -43,6 +43,20 @@
   }
 }
 
+.content-body i{
+  color: white;
+  margin: auto;
+  margin-top: 50%;
+  font-size: 120%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.content-body i:hover {
+  transform: rotate(360deg);
+}
+
+
 .liste .a:hover{
   width: 100%;
   animation-duration: 1s;
@@ -63,20 +77,6 @@
   to{
     width: 100%;
   }
-}
-
-.content-body i{
-  color: white;
-  margin: auto;
-  padding-top: 50%;
-  font-size: 120%;
-  transition: transform 0.3s linear;
-  transform : rotate(360deg);
-}
-
-.content-body i:hover{
-  transition: transform 0.3s linear;
-  transform : rotate(360deg);
 }
 
 body{
