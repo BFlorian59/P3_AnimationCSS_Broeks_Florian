@@ -13,8 +13,9 @@
 	}
 
 	.content-body i{
- 		padding-top: 30%;
-  		font-size: 150%;
+ 		font-size: 150%;
+    	margin-top: 40%;
+    	margin-bottom: auto;
 	}
 
 	.foli {

@@ -37,8 +37,9 @@
 	}
 
 	.content-body i{
- 		padding-top: 24%;
-  		font-size: 150%;
+    	font-size: 150%;
+    	margin-top: 20%;
+    	margin-bottom: auto;
 	}
 
 	footer {

@@ -40,8 +40,8 @@ main, header, footer{
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #9356DC;
-      width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
   margin: auto;
