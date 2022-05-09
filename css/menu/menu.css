@@ -29,9 +29,10 @@
   flex-direction: row;
   display: flex;
   width: 120%;
-  animation-name: a;
-  animation-duration: 1s;
+  
+  
 }
+
 
 @keyframes a {
   from {
@@ -40,6 +41,7 @@
 
   to {
     width: 120%;
+
   }
 }
 
@@ -49,10 +51,11 @@
   margin-top: 50%;
   font-size: 120%;
   position: relative;
-  transition: transform 0.5s linear;
+  transition: transform 1s linear;
+
 }
 
-.content-body i:hover {
+.a:hover .content-body i {
   transform: rotate(360deg);
 }
 
@@ -62,12 +65,25 @@
   animation-duration: 1s;
   animation-name: body-card;
 }
+.liste .a:not(:hover){  
+  animation-duration: 1s;
+  animation-name: body-card-inv;
+}
 
 .content-body{
   margin-left: auto;
   background-color: #99E2D0;
   width: 19%;
   text-align: center;
+}
+
+@keyframes body-card-inv{
+  from{
+    width: 100%;
+  }
+  to{
+    width: 120%;
+  }
 }
 
 @keyframes body-card{
