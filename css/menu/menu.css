@@ -25,24 +25,12 @@
   }
 }
 
-.liste .a {
+.liste .sous-card {
   flex-direction: row;
   display: flex;
   width: 120%;
   
   
-}
-
-
-@keyframes a {
-  from {
-    width: 100%;
-  }
-
-  to {
-    width: 120%;
-
-  }
 }
 
 .content-body i{
@@ -55,17 +43,17 @@
 
 }
 
-.a:hover .content-body i {
+.sous-card:hover .content-body i {
   transform: rotate(360deg);
 }
 
 
-.liste .a:hover{
+.liste .sous-card:hover{
   width: 100%;
   animation-duration: 1s;
   animation-name: body-card;
 }
-.liste .a:not(:hover){  
+.liste .sous-card:not(:hover){  
   animation-duration: 1s;
   animation-name: body-card-inv;
 }
