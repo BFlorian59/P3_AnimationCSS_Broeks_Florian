@@ -167,18 +167,19 @@ header img{
   margin-left: 3%;
 }
 
-.option i{
-  color: #a1a1a1;
-  font-weight: bold;
+.option:hover{
+  color: #9356DC;
+  background-color: #f7f7f7;
+  border: solid 1px #f7f7f7;
 }
 
-.option:last-child i{
-  color: #9356DC;
-  font-weight: bold;
+.option:not(:hover) i{
+  color: #a1a1a1;
 }
 
 .option b{
   font-weight: bold;
+  color: black;
 }
 
 .option b:first-child{
@@ -212,8 +213,6 @@ header img{
 }
 
 .liste .card {
-  border: 4px solid;
-  border-color: white;
   width: 94%;
   background-color: white;
   margin-right: 3%;
@@ -222,7 +221,7 @@ header img{
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 0px 12px 4px #d5d5d5;
-  height: 20em;
+  height: 16em;
 }
 
 .liste .card a { /*5*/
@@ -237,6 +236,7 @@ header img{
 
 .liste .card-body {
   box-sizing: border-box;
+  margin-left: 3%;
 }
 
 .liste .card-image  {
@@ -245,6 +245,33 @@ header img{
   text-align: center;
   margin-bottom: 2%;
   object-fit: cover;
+  height: 75%;
+}
+
+.nouveau{
+  position: relative;
+  top: -118%;
+  width: 25%;
+  height: 14.5%;
+  font-size: 100%;
+  background-color: #99E2D0;
+  margin-left: 70%;
+  text-align: center;
+  padding-top: 1%;
+  z-index: 1;
+}
+
+.nouveau2{
+  position: relative;
+  top: -232%;
+  width: 25%;
+  height: 14.5%;
+  font-size: 100%;
+  background-color: #99E2D0;
+  margin-left: 70%;
+  text-align: center;
+  padding-top: 1%;
+  z-index: 1;
 }
 
 .liste .card-image2  {
@@ -253,20 +280,21 @@ header img{
   text-align: center;
   margin-bottom: 2%;
   object-fit: cover;
-  height: 15em;
+  height: 12em;
 }
 
 .liste .card-image img {
   width: 100%;
   top: 50%;
   left: 50%;
+  transform: translate(0%, -25%);
 }
 
 .liste .card-image2 img {
-  width: 100%;
+  width: 103%;
   top: 50%;
   left: 50%;
-  transform: translate(0%, -34%);
+  transform: translate(0%, -35%);
 }
 
 .card-body{
